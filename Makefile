@@ -24,5 +24,3 @@ bonus: $(OBJ_BONUS)
 $(OBJ_BONUS):
 	$(CC) -c $(BONUS) $(SRC) $(FLAGS)
 	$(AR) $(NAME) -o $(OBJ_BONUS)
-
-bite
