@@ -20,7 +20,7 @@
 
 ---
 
-## 🌟 Présentation
+## Présentation
 
 Libft est une bibliothèque de fonctions basiques réécrivant certaines fonctions standards de `<string.h>`, `<ctype.h>`, `<stdlib.h>` et d'autres. Elle sert de base pour de nombreux projets 42, afin de maîtriser la gestion de la mémoire et les manipulations de chaînes et de listes.
 
