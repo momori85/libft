@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: amblanch <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: amblanch <amblanch@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/07 13:22:17 by amblanch          #+#    #+#             */
-/*   Updated: 2024/10/07 13:22:43 by amblanch         ###   ########.fr       */
+/*   Updated: 2025/06/27 11:32:30 by amblanch         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,6 +21,12 @@ typedef struct s_list
 	void			*content;
 	struct s_list	*next;
 }					t_list;
+
+typedef struct s_header
+{
+	__uint32_t		capacity;
+	__uint32_t		size;
+}				t_header;
 
 int		ft_isalpha(int character);
 void	ft_bzero(void *s, size_t n);
@@ -69,5 +75,11 @@ void	ft_lstclear(t_list **lst, void (*del)(void*));
 void	ft_lstiter(t_list *lst, void (*f)(void *));
 t_list	*ft_lstmap(t_list *lst, void *(*f)(void *),
 			void (*del)(void *));
+
+void	*ft_realloc(void *ptr, size_t size);
+void	ft_free_h(char **array);
+char	**ft_malloc_h(__uint32_t min_cap);
+void	ft_stats(char **array, int *extern_size, int *extern_cap);
+char	**ft_push(char **array, char *new);
 
 #endif
