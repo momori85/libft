@@ -26,9 +26,9 @@ Libft est une bibliothèque de fonctions basiques réécrivant certaines fonctio
 
 ---
 
-## 🛠️ Fonctionnalités
+## Fonctionnalités
 
-### 🔠 Tests de caractères
+### Tests de caractères
 
 | Fonction   | Description                                  |
 |------------|----------------------------------------------|
@@ -38,7 +38,7 @@ Libft est une bibliothèque de fonctions basiques réécrivant certaines fonctio
 | `isdigit`  | Vérifie si le caractère est un chiffre        |
 | `isprint`  | Vérifie si le caractère est imprimable        |
 
-### 📚 Manipulation de chaînes
+### Manipulation de chaînes
 
 | Fonction    | Description                                    |
 |-------------|------------------------------------------------|
@@ -60,7 +60,7 @@ Libft est une bibliothèque de fonctions basiques réécrivant certaines fonctio
 | `tolower`   | Convertit en minuscule                         |
 | `toupper`   | Convertit en majuscule                         |
 
-### 💾 Gestion de la mémoire dynamique
+### Gestion de la mémoire dynamique
 
 | Fonction   | Description                              |
 |------------|------------------------------------------|
@@ -68,7 +68,7 @@ Libft est une bibliothèque de fonctions basiques réécrivant certaines fonctio
 | `realloc`  | Redimensionne un bloc alloué             |
 | `tab_header`| Initialise un tableau de pointeurs (bonus)|
 
-### 🧩 Opérations sur blocs mémoire
+### Opérations sur blocs mémoire
 
 | Fonction   | Description                                  |
 |------------|----------------------------------------------|
@@ -79,7 +79,7 @@ Libft est une bibliothèque de fonctions basiques réécrivant certaines fonctio
 | `memchr`   | Recherche un octet dans un bloc mémoire      |
 | `memcmp`   | Compare deux blocs mémoire                   |
 
-### 🔗 Listes chaînées
+### Listes chaînées
 
 | Fonction      | Description                                   |
 |---------------|-----------------------------------------------|
@@ -93,14 +93,14 @@ Libft est une bibliothèque de fonctions basiques réécrivant certaines fonctio
 | `lstclear`    | Vide toute la liste                            |
 | `lstmap`      | Applique une fonction et crée une nouvelle liste|
 
-### 🔄 Conversion de types
+### Conversion de types
 
 | Fonction   | Description                                |
 |------------|--------------------------------------------|
 | `atoi`     | Convertit une chaîne en entier            |
 | `itoa`     | Convertit un entier en chaîne (`malloc`)  |
 
-### 🖨️ Sortie sur le terminal
+### Sortie sur le terminal
 
 | Fonction      | Description                              |
 |---------------|------------------------------------------|
@@ -111,10 +111,18 @@ Libft est une bibliothèque de fonctions basiques réécrivant certaines fonctio
 
 ---
 
-## 🚀 Installation
+## Installation
 
-### ⚙️ Compilation obligatoire
+### Compilation obligatoire
 ```bash
 git clone https://github.com/momori85/libft.git
 cd libft
 make
+```
+
+### Compilation bonus
+```bash
+git clone https://github.com/momori85/libft.git
+cd libft
+make bonus
+```
